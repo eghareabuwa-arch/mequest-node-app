@@ -5,7 +5,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.get("/", (req, res) => {
-  res.send("Hello! My Node app.js app is now running from GitHub Actions on Azure App Service.");
+  res.send("Hello! This app passed through staging before manual production approval.");
 });
 
 app.listen(PORT, () => {
