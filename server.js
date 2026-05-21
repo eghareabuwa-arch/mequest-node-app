@@ -5,7 +5,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.get("/", (req, res) => {
-  res.send("Hello! This app passed through staging before manual production approval.");
+  res.send("Hello! This is staging app is now working before production approval.");
 });
 
 app.listen(PORT, () => {
